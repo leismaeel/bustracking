@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/yyyy"
+    >
+
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:background="@drawable/backgroundlogin">
+
+
+
+
+            </RelativeLayout>
+
+
+
+
+
+   <androidx.cardview.widget.CardView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginRight="20dp"
+       android:layout_marginLeft="20dp"
+       android:id="@+id/data"
+       android:layout_marginTop="30dp"
+       android:layout_centerHorizontal="true"
+       android:layout_centerVertical="true"
+       app:cardCornerRadius="30dp"
+       android:layout_marginBottom="30dp"
+
+       >
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical"
+           android:layout_marginTop="20dp"
+           android:layout_marginBottom="20dp"
+
+
+           >
+
+
+           <RelativeLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+
+               >
+               <ImageView
+                   android:layout_width="20dp"
+                   android:layout_height="20dp"
+                   android:layout_alignParentStart="true"
+                   android:layout_marginLeft="40dp"
+                   android:layout_centerVertical="true"
+                   android:id="@+id/nametextview"
+                   android:src="@drawable/admin1"
+                   />
+
+
+                   <RelativeLayout
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_toRightOf="@+id/nametextview"
+                       >
+                       <TextView
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:id="@+id/name"
+                           android:padding="5dp"
+                           android:textSize="20dp"
+                           android:textColor="#000"
+                           android:layout_margin="10dp"
+                           android:text="textwill be shown here"
+                           android:fontFamily="@font/abeezee"
+                           />
+                       <ImageView
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:src="@drawable/editprofile"
+                           android:id="@+id/editname"
+                           android:layout_margin="10dp"
+                           android:layout_centerVertical="true"
+                           android:layout_alignParentRight="true"
+                           />
+                   </RelativeLayout>
+
+           </RelativeLayout>
+           <RelativeLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="10dp"
+
+               >
+               <ImageView
+                   android:layout_width="20dp"
+                   android:layout_height="20dp"
+                   android:layout_alignParentStart="true"
+                   android:layout_marginLeft="40dp"
+                   android:layout_centerVertical="true"
+                   android:src="@drawable/passwrod"
+                   android:id="@+id/passwordtextview"
+                   />
+
+                   <RelativeLayout
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_toRightOf="@+id/passwordtextview"
+                       >
+                       <TextView
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:padding="5dp"
+                           android:id="@+id/passssssssssword"
+                           android:textSize="20dp"
+                           android:textColor="#000"
+                           android:layout_margin="10dp"
+                           android:text="textwill be shown here"
+                           android:fontFamily="@font/abeezee"
+                           />
+                       <ImageView
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:id="@+id/editpassword"
+                           android:layout_margin="10dp"
+
+                           android:layout_centerVertical="true"
+                           android:layout_alignParentRight="true"
+                           />
+                   </RelativeLayout>
+           </RelativeLayout>
+           <RelativeLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="10dp"
+               >
+               <ImageView
+                   android:layout_width="20dp"
+                   android:layout_height="20dp"
+                   android:layout_alignParentStart="true"
+                   android:layout_marginLeft="40dp"
+                   android:layout_centerVertical="true"
+                   android:src="@drawable/email"
+                   android:id="@+id/Emailtextview"
+                   />
+
+                   <RelativeLayout
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_toRightOf="@+id/Emailtextview"
+                       >
+                       <TextView
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:id="@+id/email"
+                           android:textSize="20dp"
+                           android:padding="5dp"
+                           android:textColor="#000"
+                           android:layout_margin="10dp"
+                           android:text="textwill be shown here"
+                           android:fontFamily="@font/abeezee"
+                           />
+
+                   </RelativeLayout>
+           </RelativeLayout>
+           <RelativeLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+
+               android:layout_marginTop="10dp"
+               >
+               <ImageView
+                   android:layout_width="20dp"
+                   android:layout_height="20dp"
+                   android:layout_alignParentStart="true"
+                   android:layout_marginLeft="40dp"
+                   android:layout_centerVertical="true"
+                   android:src="@drawable/busforeditprofile"
+                   android:id="@+id/Busnotextview"
+                   />
+
+                   <RelativeLayout
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_toRightOf="@+id/Busnotextview"
+
+                       >
+                       <TextView
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:id="@+id/Busno"
+                           android:padding="5dp"
+                           android:textSize="20dp"
+                           android:layout_margin="10dp"
+                           android:textColor="#000"
+                           android:text="textwill be shown here"
+                           android:fontFamily="@font/abeezee"
+                           />
+                       <ImageView
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:layout_margin="10dp"
+
+                           android:id="@+id/editbusno"
+                           android:layout_centerVertical="true"
+                           android:layout_alignParentRight="true"
+                           />
+                   </RelativeLayout>
+           </RelativeLayout>
+           <RelativeLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+
+               android:layout_marginTop="10dp"
+               >
+               <ImageView
+                   android:layout_width="20dp"
+                   android:layout_height="20dp"
+                   android:layout_alignParentStart="true"
+                   android:layout_marginLeft="40dp"
+                   android:layout_centerVertical="true"
+                   android:src="@drawable/phoneandroid"
+                   android:id="@+id/contacttextview"
+                   />
+
+               <RelativeLayout
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_toRightOf="@+id/contacttextview"
+
+                   >
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:id="@+id/contact"
+                       android:padding="5dp"
+                       android:textSize="20dp"
+                       android:layout_margin="10dp"
+                       android:textColor="#000"
+                       android:text="0332325484"
+                       android:fontFamily="@font/abeezee"
+                       />
+                   <ImageView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:src="@drawable/editprofile"
+                       android:layout_margin="10dp"
+
+                       android:id="@+id/editcontact"
+                       android:layout_centerVertical="true"
+                       android:layout_alignParentRight="true"
+                       />
+               </RelativeLayout>
+           </RelativeLayout>
+
+
+       </LinearLayout>
+
+
+   </androidx.cardview.widget.CardView>
+
+
+
+
+</RelativeLayout>

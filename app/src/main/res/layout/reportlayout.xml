@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#E7DFDF">
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:src="@drawable/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:background="#E7DFDF"
+        android:id="@+id/logo"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bus tracking Application"
+        android:layout_below="@+id/logo"
+        android:fontFamily="@font/sanchez"
+        android:layout_centerHorizontal="true"
+
+        />
+   <androidx.cardview.widget.CardView
+       android:layout_width="match_parent"
+       android:layout_height="200dp"
+       android:layout_centerVertical="true"
+       android:layout_marginLeft="10dp"
+       android:layout_marginRight="10dp"
+       app:cardCornerRadius="20dp"
+
+       android:layout_centerHorizontal="true"
+       android:id="@+id/cardviewforreport"
+       >
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           >
+           <com.google.android.material.textfield.TextInputLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_centerHorizontal="true"
+               android:layout_centerVertical="true"
+               android:layout_margin="20dp"
+               android:clickable="true"
+               app:counterEnabled="true"
+               android:id="@+id/itsalayoout"
+               >
+
+               <EditText
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:id="@+id/edittextforreportstudent"
+                   android:layout_centerHorizontal="true"
+                   android:text=""
+                   android:cursorVisible="true"
+                    android:layout_marginLeft="20dp"
+                   android:hint="Enter Your Text Here"
+                   android:textAlignment="center"
+                   android:layout_centerVertical="true"
+                   />
+           </com.google.android.material.textfield.TextInputLayout>
+
+           <ImageView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:src="@drawable/mic"
+               android:id="@+id/micforreportstudent"
+               android:layout_marginLeft="10dp"
+               android:layout_alignParentRight="true"
+               android:padding="10dp"
+               android:layout_centerVertical="true"
+               />
+       </RelativeLayout>
+
+
+   </androidx.cardview.widget.CardView>
+
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cardviewforreport"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="30dp"
+        android:text="Submit"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:padding="15dp"
+        android:fontFamily="@font/cantata_one"
+        android:background="@color/colorPrimaryDark"
+        android:id="@+id/submitstudent"
+        />
+
+
+</RelativeLayout>

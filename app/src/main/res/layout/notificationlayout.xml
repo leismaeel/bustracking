@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/yyyy"
+    >
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#EEEDED"
+        app:menu="@menu/bottomnavmenu"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/bootmnav"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="70dp"
+        android:layout_above="@+id/bootmnav"
+        android:background="@drawable/cardviewbackground"
+
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textColor="#fff"
+            android:layout_marginTop="10dp"
+            android:text="Drivers Notifications\n"
+            android:fontFamily="@font/gentium_basic_bold"
+            android:textSize="25dp"
+            android:id="@+id/textttttt"
+            />
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textttttt"
+            android:id="@+id/recycler_view">
+        </androidx.recyclerview.widget.RecyclerView>
+
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
